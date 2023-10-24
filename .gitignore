@@ -1,0 +1,9 @@
+# FILES
+CMakeCache.txt
+cmake_install.cmake
+
+# DIRS
+/.vscode
+/build
+/CMakeFiles
+/mpc*
