@@ -9,7 +9,7 @@ int main() {
 
     mpc_result_t r;
 
-    if (mpc_parse("grammar", "1+(1*4)", parser.Maths, &r)) {
+    if (mpc_parse_contents("readme.maths", parser.Stmt, &r)) {
         mpc_ast_print(r.output);
         mpc_ast_delete(r.output);
     } else {
